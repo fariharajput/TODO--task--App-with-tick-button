@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/02b5c565be.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custome Style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Tasks ToDo</title>
+  </head>
+  <body>
+    <div class="container todo-container my-3 py-2 ">
+      <div class="addTasks">
+        <header class="ToDo-header text-center text-light my-4">
+          <h1 class="ToDo-heading mb-4">Tasks ToDo App</h1>
+          <form action="" class="search">
+            <input
+              type="text"
+              placeholder="search"
+              class="form-control mb-4 text-light"
+              name="search"
+            />
+          </form>
+        </header>
+        <ul class="list list-group text-light mx-auto mb-5">
+          <div class="list-item d-flex justify-content-between align-items-center my-1">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center "
+            ><div>
+              <span>Develop a portfolio</span>
+            </div>
+              <i class="fas fa-trash-alt delete mx-1"></i>
+            </li>
+            <i class="fas fa-check-circle check mx-2"></i>
+          </div>
+         <!-- list-item-2 -->
+         <div class="list-item d-flex justify-content-between align-items-center my-1">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center "
+          ><div>
+            <span>Set a Web app</span>
+          </div>
+            <i class="fas fa-trash-alt delete mx-1"></i>
+          </li>
+          <i class="fas fa-check-circle check mx-2"></i>
+        </div>
+        <!-- list-item-3 -->
+        <div class="list-item d-flex justify-content-between align-items-center my-1">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center "
+          ><div>
+            <span>Learn more and more javascript</span>
+          </div>
+            <i class="fas fa-trash-alt delete mx-1"></i>
+          </li>
+          <i class="fas fa-check-circle check mx-2"></i>
+        </div>
+         
+        </ul>
+
+        <form action="" class="add">
+          <input
+            type="text"
+            class="form-control text-light"
+            placeholder="add your task here!"
+            name="addIn"
+          />
+        </form>
+      </div>
+      <div class="w-100"></div>
+
+    <div class="completed ">
+        <!-- Completed Tasks -->
+        <div class="completed-container p-3">
+            <p>Completed</p>
+            <ul class="checked-list list-group text-light mx-auto mb-5">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <span style="text-decoration:line-through;">Learn how to code?</span>
+                  <i class="fas fa-reply reverse"></i>
+                </li>
+               
+              </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

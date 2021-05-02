@@ -1,0 +1,66 @@
+body{
+    background-color: #352F5B;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    background-color: #2A2649;
+    border: none;
+    max-width: 400px;
+}
+input[type="text"]:focus{
+    border: none;
+    outline: none;
+    background-color: #2A2649;
+    color: white;
+}
+
+.addTasks ul li{
+    background-color: #423A6F !important;
+    width: 350px;
+
+}
+list i{
+    position: fixed;
+    left: 31%;
+}
+
+.list-item{
+    width: 100%;
+}
+.check{
+    color: greenyellow;
+}
+.check:hover{
+    color:#2A2649
+}
+
+.completed-container{
+    margin-top: 50px;
+    width: 700px;
+    background-color: #2A2649;
+    border-radius: 6px;
+    color:#ffffff;
+    
+}
+.completed-container ul li {
+    background-color:#6a5faa ;
+}
+
+.filtered{
+    display:none !important;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
+
+@media all and (max-width:768px) {
+
+}
