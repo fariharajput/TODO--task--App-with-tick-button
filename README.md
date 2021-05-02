@@ -2,7 +2,7 @@
 
 ## Help you to make a list of  your daily task to make you focus on your daily routines 
 -------------------------------------------------
-#### Visit the app by clicking this [TODO Tasks app](https://todo-tasks-app-1213.netlify.app/)
+#### Visit the app by clicking this [TODO Tasks app](https://fariha-todo-task-app.netlify.app/)
 ![](gif/todo%20app.gif)
 
 _First Section (adding,delete and search of tasks)_
